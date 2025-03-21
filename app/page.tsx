@@ -136,7 +136,7 @@ export default function Home() {
                 </h2>
                 <p className="text-lg text-gray-700 leading-relaxed">
                   To create a network of empowered citizens who can act as
-                  ambassadors for the government's achievements, fostering a
+                  ambassadors for the governments achievements, fostering a
                   sense of community and shared purpose among beneficiaries of
                   UPND government programs.
                 </p>
@@ -296,7 +296,7 @@ export default function Home() {
                 </h3>
                 <p className="text-gray-700">
                   Cultivate a network of empowered citizens who can act as
-                  advocates for the UPND government's achievements and vision.
+                  advocates for the UPND governments achievements and vision.
                 </p>
               </div>
             </div>
@@ -442,8 +442,8 @@ export default function Home() {
               Our 2026 Vision
             </h2>
             <p className="text-xl md:text-2xl font-medium max-w-3xl mx-auto mb-10">
-              "Empowered Today, Progress Tomorrow: Vote UPND for Continued
-              Transformation"
+              Empowered Today, Progress Tomorrow: Vote UPND for Continued
+              Transformation
             </p>
             <Button className="bg-[#c1e5d3] hover:bg-[#a3d7bc] text-[#0e3b39] font-medium rounded-full px-8 py-3">
               Join Our Movement
