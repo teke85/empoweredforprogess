@@ -1,7 +1,10 @@
+"use client";
+
 import { ChevronDown, Menu } from "lucide-react";
 import Link from "next/link";
 import React, { useState } from "react";
 import { Button } from "./ui/button";
+import Logo from "./Logo";
 
 function Header() {
   return (
@@ -9,9 +12,10 @@ function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center">
-            <span className="text-2xl font-bold font-bricolage">
+            <Logo />
+            {/* <span className="text-2xl font-bold font-bricolage">
               Empowered for Progress
-            </span>
+            </span> */}
           </Link>
 
           {/* Desktop Navigation */}

@@ -15,43 +15,11 @@ import { Mail, MapPin, Phone } from "lucide-react";
 export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="bg-green-700 text-white">
-        <div className="container mx-auto px-4 py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center mb-4 md:mb-0">
-              <Link href="/">
-                <h1 className="text-2xl font-bold">EMPOWERED FOR PROGRESS</h1>
-              </Link>
-            </div>
-            <nav className="flex gap-6">
-              <Link href="/" className="hover:underline font-medium">
-                Home
-              </Link>
-              <Link href="/about" className="hover:underline font-medium">
-                About
-              </Link>
-              <Link href="/objectives" className="hover:underline font-medium">
-                Objectives
-              </Link>
-              <Link href="/scope" className="hover:underline font-medium">
-                Scope
-              </Link>
-              <Link href="/team" className="hover:underline font-medium">
-                Team
-              </Link>
-              <Link href="/contact" className="hover:underline font-medium">
-                Contact
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
-
       <main className="flex-1">
         {/* Hero Section */}
         <section className="bg-gray-100 py-12">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl font-bold mb-6 text-green-800">
+            <h1 className="text-4xl font-bold mb-6 text-[#0E3B39]">
               Contact Us
             </h1>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
@@ -67,7 +35,7 @@ export default function ContactPage() {
             <div className="grid md:grid-cols-2 gap-12">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-2xl text-green-800">
+                  <CardTitle className="text-2xl text-[#0E3B39]">
                     Send us a message
                   </CardTitle>
                   <CardDescription>
@@ -115,7 +83,7 @@ export default function ContactPage() {
                     </div>
                     <Button
                       type="submit"
-                      className="w-full bg-green-700 hover:bg-green-800"
+                      className="w-full bg-[#0E3B39] hover:bg-green-800"
                     >
                       Send Message
                     </Button>
@@ -125,12 +93,12 @@ export default function ContactPage() {
 
               <div className="space-y-8">
                 <div>
-                  <h2 className="text-2xl font-bold text-green-800 mb-6">
+                  <h2 className="text-2xl font-bold text-[#0E3B39] mb-6">
                     Contact Information
                   </h2>
                   <div className="space-y-4">
                     <div className="flex items-start">
-                      <Mail className="h-6 w-6 text-green-600 mr-3 mt-0.5" />
+                      <Mail className="h-6 w-6 text-[#0E3B39] mr-3 mt-0.5" />
                       <div>
                         <h3 className="font-semibold">Email</h3>
                         <p className="text-gray-700">
@@ -139,14 +107,14 @@ export default function ContactPage() {
                       </div>
                     </div>
                     <div className="flex items-start">
-                      <Phone className="h-6 w-6 text-green-600 mr-3 mt-0.5" />
+                      <Phone className="h-6 w-6 text-[#0E3B39] mr-3 mt-0.5" />
                       <div>
                         <h3 className="font-semibold">Phone</h3>
                         <p className="text-gray-700">+260 XXX XXX XXX</p>
                       </div>
                     </div>
                     <div className="flex items-start">
-                      <MapPin className="h-6 w-6 text-green-600 mr-3 mt-0.5" />
+                      <MapPin className="h-6 w-6 text-[#0E3B39] mr-3 mt-0.5" />
                       <div>
                         <h3 className="font-semibold">Address</h3>
                         <p className="text-gray-700">Lusaka, Zambia</p>
@@ -156,7 +124,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <h2 className="text-2xl font-bold text-green-800 mb-6">
+                  <h2 className="text-2xl font-bold text-[#0E3B39] mb-6">
                     Connect With Us
                   </h2>
                   <p className="text-gray-700 mb-4">
@@ -166,7 +134,7 @@ export default function ContactPage() {
                   <div className="flex gap-4">
                     <Link
                       href="#"
-                      className="text-green-700 hover:text-green-800"
+                      className="text-[#0E3B39] hover:text-green-800"
                     >
                       <span className="sr-only">Facebook</span>
                       <svg
@@ -184,7 +152,7 @@ export default function ContactPage() {
                     </Link>
                     <Link
                       href="#"
-                      className="text-green-700 hover:text-green-800"
+                      className="text-[#0E3B39] hover:text-green-800"
                     >
                       <span className="sr-only">Twitter</span>
                       <svg
@@ -198,7 +166,7 @@ export default function ContactPage() {
                     </Link>
                     <Link
                       href="#"
-                      className="text-green-700 hover:text-green-800"
+                      className="text-[#0E3B39] hover:text-green-800"
                     >
                       <span className="sr-only">Instagram</span>
                       <svg
@@ -224,12 +192,12 @@ export default function ContactPage() {
         {/* FAQ Section */}
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-green-800">
+            <h2 className="text-3xl font-bold text-center mb-12 text-[#0E3B39]">
               Frequently Asked Questions
             </h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-green-800 mb-3">
+                <h3 className="text-xl font-bold text-[#0E3B39] mb-3">
                   How can I get involved?
                 </h3>
                 <p className="text-gray-700">
@@ -240,7 +208,7 @@ export default function ContactPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-green-800 mb-3">
+                <h3 className="text-xl font-bold text-[#0E3B39] mb-3">
                   What is the timeline for this project?
                 </h3>
                 <p className="text-gray-700">
@@ -253,7 +221,7 @@ export default function ContactPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-green-800 mb-3">
+                <h3 className="text-xl font-bold text-[#0E3B39] mb-3">
                   Who can be considered a beneficiary?
                 </h3>
                 <p className="text-gray-700">
@@ -265,7 +233,7 @@ export default function ContactPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-green-800 mb-3">
+                <h3 className="text-xl font-bold text-[#0E3B39] mb-3">
                   How will my information be used?
                 </h3>
                 <p className="text-gray-700">
@@ -280,14 +248,14 @@ export default function ContactPage() {
         </section>
 
         {/* Call to Action */}
-        <section className="py-16 bg-green-700 text-white">
+        <section className="py-16 bg-[#0E3B39] text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-6">Ready to Get Involved?</h2>
             <p className="text-lg mb-8 max-w-2xl mx-auto">
               Join us in documenting and amplifying the impact of government
               empowerment programs.
             </p>
-            <Button className="bg-white text-green-700 hover:bg-gray-100 text-lg px-8 py-6">
+            <Button className="bg-[#0E3B39] border text-[#0E3B39]0 hover:bg-[#23615e] text-lg px-8 py-6">
               Contact Us Today
             </Button>
           </div>

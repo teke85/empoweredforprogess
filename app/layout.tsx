@@ -2,6 +2,7 @@ import type React from "react";
 import type { Metadata } from "next";
 import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
 
 const bricolageGrotesque = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${bricolageGrotesque.variable} antialiased`}>
+        <Header />
         {children}
       </body>
     </html>
