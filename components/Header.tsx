@@ -79,7 +79,7 @@ function Header() {
             <MobileMenu />
           </div>
 
-          <Button className="hidden md:flex font-bricolage bg-[#c1e5d3] hover:bg-[#a3d7bc] text-[#0e3b39] font-medium rounded-full px-6">
+          <Button className="hidden md:flex font-bricolage bg-[#fff] transition-all duration-300 hover:bg-[#a3d7bc] text-[#0e3b39] font-medium rounded-full px-6">
             Get Involved
           </Button>
         </div>
@@ -136,7 +136,7 @@ function MobileMenu() {
             >
               Contact
             </Link>
-            <Button className="bg-[#c1e5d3] hover:bg-[#a3d7bc] text-[#0e3b39] font-medium rounded-full">
+            <Button className="bg-[#fff] hover:bg-[#ffff] text-[#0e3b39] font-medium rounded-full">
               Get Involved
             </Button>
           </nav>
